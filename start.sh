@@ -33,7 +33,6 @@ git config --global user.name "Alex Lee"
 git config --global user.email "alexander.j.lee@gmail.com"
 git config --global core.excludesfile ~/git/.gitignore
 echo .DS_Store >> ~/git/.gitignore
-git config --global user.signingkey 5C7C8FA25E922625C2AD9F4571045E03B1DEEA91
 
 # install Slack
 wget -O ${HOME}/Downloads/Slack.dmg https://slack.com/ssb/download-osx
