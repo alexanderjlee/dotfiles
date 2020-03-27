@@ -29,8 +29,6 @@ hdiutil unmount /Volumes/Keybase -force
 # install Git
 cd ~ && mkdir git
 brew install git
-git config --global user.name "Alex Lee"
-git config --global user.email "alexander.j.lee@gmail.com"
 git config --global core.excludesfile ~/git/.gitignore
 echo .DS_Store >> ~/git/.gitignore
 
